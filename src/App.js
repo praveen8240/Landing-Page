@@ -1,5 +1,6 @@
 import {motion} from "framer-motion"
 import img from './shoot.jpg'
+import circle from './circle.png'
 import Footer from "./components/Footer.jsx"
 import Navbar from "./components/NavBar.jsx"
 
@@ -73,7 +74,7 @@ const App = () => {
       <div className="absolute -top-12 -left-12 w-[300px] h-[300px] bg-black blur-[120px]"/>
       <div className="absolute bottom-0 -right-12 w-[300px] h-[300px] bg-[#44a9ed] blur-[100px]"/>
       <div>
-        <motion.img src="/img/circle.png" alt="art" className="w-[100px] absolute top-[100px] right-[380px] animate-spin-slow" variants={circleAnimation} initial="hidden" animate="show" />
+        <motion.img src={circle} alt="art" className="w-[100px] absolute top-[100px] right-[380px] animate-spin-slow" variants={circleAnimation} initial="hidden" animate="show" />
       </div>
 
       <section className="h-[calc(100vh-80px)] flex flex-col items-center relative">
