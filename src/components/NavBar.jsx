@@ -14,7 +14,7 @@ const Navbar = () => {
     }
   }
   return (
-    <motion.nav className="flex justify-between items-center pt-4 relative z-50" variants={navbarAnimation} initial="hidden" animate="show">
+    <motion.nav className="lg:flex md:flex hidden justify-between items-center pt-4 relative z-50" variants={navbarAnimation} initial="hidden" animate="show">
         <div>
             <h1 className="font-bold text-xl">Mathi Praveen</h1>
         </div>
