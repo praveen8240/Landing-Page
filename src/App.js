@@ -91,7 +91,7 @@ const App = () => {
 
   return (
     <div className="h-screen px-4 sm:px-12 relative overflow-hidden">
-      <Navbar />
+      {isLaunched && <Navbar />}
       <div className="absolute -top-12 -left-12 w-[150px] h-[150px] sm:w-[300px] sm:h-[300px] bg-black blur-[60px] sm:blur-[120px]" />
       <div className="absolute bottom-0 -right-12 w-[150px] h-[150px] sm:w-[300px] sm:h-[300px] bg-[#44a9ed] blur-[50px] sm:blur-[100px]" />
 
