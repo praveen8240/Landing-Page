@@ -18,13 +18,8 @@ const Navbar = () => {
         <div>
             <h1 className="font-bold text-xl">Mathi Praveen</h1>
         </div>
-        <ul className="w-[250px] flex justify-between items-center">
-            <li><a href="#" className="font-semibold text-sm">Portfolio</a></li>
-            <li><a href="#" className="font-semibold text-sm">Resume</a></li>
-            <li><a href="#" className="font-semibold text-sm">HireMe</a></li>
-        </ul>
         <div>
-            <a href="#" className="font-semibold text-sm">About</a>
+            Know more about me from Portfolio
         </div>
     </motion.nav>
   )

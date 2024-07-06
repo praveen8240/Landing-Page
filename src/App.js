@@ -9,7 +9,6 @@ import Navbar from "./components/NavBar.jsx";
 const App = () => {
   const [isLaunched, setIsLaunched] = useState(false);
   const [circleSpin, setCircleSpin] = useState(false);
-
   const handleLaunch = () => {
     setIsLaunched(true);
     setTimeout(() => {
@@ -184,6 +183,9 @@ const App = () => {
           </section>
           <div className="w-full h-screen">
             <motion.button
+            onClick={() => {
+              window.location.href = "https://praveen8240.github.io/praveen_portfolio/";
+            }}
               className="bg-blue-500 animate-bounce hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full absolute bottom-10 left-10 lg:left-[65rem] lg:bottom-[8rem] w-[10rem]"
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
